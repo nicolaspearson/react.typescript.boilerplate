@@ -1,7 +1,8 @@
 {
   "name": "react.typescript.boilerplate",
   "version": "1.0.0",
-  "description": "This is a React Boilerplate project, built using Typescript, React, and Material Design.",
+  "description":
+    "This is a React Boilerplate project, built using Typescript, React, and Material Design.",
   "repository": {
     "type": "git",
     "url": "https://github.com/nicolaspearson/react.material.boilerplate"
@@ -17,6 +18,8 @@
     "material-ui": "^1.0.0-beta.43",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "sanitize.css": "5.0.0",
     "typeface-roboto": "^0.0.54"
   },
   "devDependencies": {
@@ -67,12 +70,8 @@
     "whatwg-fetch": "2.0.4"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
+    "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
+    "setupFiles": ["<rootDir>/config/polyfills.js"],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.(j|t)s?(x)",
       "<rootDir>/src/**/?(*.)(spec|test).(j|t)s?(x)"
@@ -85,9 +84,7 @@
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
       "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|ts|tsx)$"
-    ],
+    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|ts|tsx)$"],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -106,14 +103,13 @@
     ],
     "globals": {
       "ts-jest": {
-        "tsConfigFile": "/Users/nicpearson/Work/Personal/Dev/React/react.typescript.boilerplate/tsconfig.test.json"
+        "tsConfigFile":
+          "/Users/nicpearson/Work/Personal/Dev/React/react.typescript.boilerplate/tsconfig.test.json"
       }
     }
   },
   "babel": {
-    "presets": [
-      "react-app"
-    ]
+    "presets": ["react-app"]
   },
   "eslintConfig": {
     "extends": "react-app"
