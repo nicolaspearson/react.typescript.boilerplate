@@ -3,15 +3,16 @@ import * as React from 'react';
 import './style.scss';
 
 export interface ButtonProps {
-	children: any;
-	primary: any;
-	secondary: any;
-	outline: any;
-	github: any;
-	google: any;
-	facebook: any;
-	full: any;
-	square: any;
+	children?: any;
+	primary?: any;
+	secondary?: any;
+	outline?: any;
+	github?: any;
+	google?: any;
+	facebook?: any;
+	full?: any;
+	square?: any;
+	onClick?: () => void;
 }
 
 const Button = (props: ButtonProps) => {

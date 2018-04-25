@@ -9,7 +9,7 @@ class ScrollManager extends React.Component {
 	}
 
 	public render() {
-		return undefined;
+		return <div />;
 	}
 }
 

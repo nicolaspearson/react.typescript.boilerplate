@@ -7,17 +7,17 @@ import SiteNav from '../SiteNav';
 import './style.scss';
 
 export interface HeaderProps {
-	title: string;
-	subtitle: string;
-	theme: string;
-	toggleNav: () => {};
-	toggleSignUp: () => {};
-	toggleSignIn: () => {};
-	flags: any;
-	pageStatus: any;
-	closeNav: () => {};
-	before: any;
-	children: any;
+	title?: string;
+	subtitle?: string;
+	theme?: string;
+	toggleNav?: () => {};
+	toggleSignUp?: () => {};
+	toggleSignIn?: () => {};
+	flags?: any;
+	pageStatus?: any;
+	closeNav?: () => {};
+	before?: any;
+	children?: any;
 }
 
 const Header = (props: HeaderProps) => {
@@ -39,7 +39,7 @@ const Header = (props: HeaderProps) => {
 					<SiteNav
 						theme={props.theme}
 						toggleSignIn={props.toggleSignIn}
-						isOpen={props.flags.has('site-nav.open')}
+						isOpen={props.flags && props.flags.has('site-nav.open')}
 						closeNav={props.closeNav}
 					/>
 				</div>

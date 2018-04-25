@@ -6,10 +6,10 @@ import Nav from '../../ui/Nav';
 import Link from '../../ui/RouterLink';
 
 export interface SiteNavProps {
-	isOpen: boolean;
-	theme: string;
-	toggleSignIn: () => {};
-	closeNav: () => {};
+	isOpen?: boolean;
+	theme?: string;
+	toggleSignIn?: () => {};
+	closeNav?: () => {};
 }
 
 // tslint:disable jsx-boolean-value

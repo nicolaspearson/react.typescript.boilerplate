@@ -42,6 +42,7 @@
 .Header {
 	color: #3871d0;
 	padding-top: 25px;
+	padding-bottom: 25px;
 	position: relative;
 	z-index: 10;
 }
@@ -72,7 +73,6 @@
 
 .Header__inner {
 	width: 100%;
-	max-width: 1220px;
 	padding-left: 30px;
 	padding-right: 30px;
 	position: relative;

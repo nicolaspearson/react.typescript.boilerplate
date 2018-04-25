@@ -1,6 +1,7 @@
 import * as React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import Button from 'material-ui/Button';
+import Landing from 'features/Landing';
 
 import './App.scss';
 
@@ -16,28 +17,12 @@ class App extends React.Component {
 
 	public render() {
 		return (
-			<section className="app-landing-page">
-				<div className="main-content">
-					<div className="hero">
-						<div className="container">
-							<h2>React Material Boilerplate</h2>
-							<p>
-								React Material Boilerplate is a helpful template built with Google's Material Design
-								guidelines in mind, it comes with tons of useful features to kickstart your next
-								project.
-							</p>
-							<Button
-								variant="raised"
-								color="primary"
-								className="btn-cta"
-								onClick={this.handleViewSourceCodeClick}
-							>
-								View Source Code
-							</Button>
-						</div>
-					</div>
-				</div>
-			</section>
+			<Router>
+				<section className="app-landing-page">
+					<Landing />
+					<div className="main-content" />
+				</section>
+			</Router>
 		);
 	}
 }

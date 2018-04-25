@@ -104,7 +104,7 @@ export default class Head extends React.Component {
 
 		this.updateHead(head);
 
-		return undefined;
+		return <div />;
 	}
 }
 
