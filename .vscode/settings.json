@@ -1,5 +1,11 @@
 {
-	"cSpell.words": ["Parens", "kickstart", "roboto", "unmount"],
+	"cSpell.words": [
+		"Parens",
+		"Requireable",
+		"kickstart",
+		"roboto",
+		"unmount"
+	],
 	"editor.formatOnPaste": false,
 	"editor.formatOnSave": true,
 	"javascript.validate.enable": false,
