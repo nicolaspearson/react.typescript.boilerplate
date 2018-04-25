@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import './style.scss';
+
 export interface IconProps {
 	icon: string;
 }
