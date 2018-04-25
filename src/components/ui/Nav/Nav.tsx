@@ -3,8 +3,8 @@ import * as React from 'react';
 import './style.scss';
 
 export interface NavProps {
-	children: any;
-	stack: any;
+	children?: any;
+	stack?: boolean;
 }
 
 const Nav = (props: NavProps) => (
