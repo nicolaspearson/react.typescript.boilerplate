@@ -1,12 +1,8 @@
-.Grid {
+.nav {
 	display: flex;
-	margin-left: -30px;
+	list-style: none;
 }
 
-.Grid--wrap {
-	flex-wrap: wrap;
-}
-
-.Grid > :global(*) {
-	padding-left: 30px;
+.nav--stack {
+	flex-direction: column;
 }

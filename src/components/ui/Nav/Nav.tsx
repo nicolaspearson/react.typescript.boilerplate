@@ -4,11 +4,15 @@ import './style.scss';
 
 export interface NavProps {
 	children: any;
-	wrap: any;
+	stack: any;
 }
 
 const Nav = (props: NavProps) => (
-	<div className={`Grid ${props.wrap ? 'Grid--wrap' : ''} `}>{props.children}</div>
+	<div>
+		<ul className={`nav ${props.stack ? 'nav--stack' : ''}`}>
+			{React.Children.map(props.children, (Item) => <li>{Item}</li>)}
+		</ul>
+	</div>
 );
 
 export default Nav;
