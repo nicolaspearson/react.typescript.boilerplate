@@ -1,0 +1,7 @@
+span {
+  display: inline-block;
+}
+
+span :global(a) {
+  text-decoration: none;
+}
