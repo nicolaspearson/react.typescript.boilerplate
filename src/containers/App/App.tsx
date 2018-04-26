@@ -8,11 +8,6 @@ import './App.scss';
 class App extends React.Component {
 	constructor(props: {}, context?: any) {
 		super(props, context);
-		this.handleViewSourceCodeClick = this.handleViewSourceCodeClick.bind(this);
-	}
-
-	public handleViewSourceCodeClick() {
-		window.location.href = 'https://github.com/nicolaspearson/react.material.boilerplate';
 	}
 
 	public render() {
