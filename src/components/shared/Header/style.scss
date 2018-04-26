@@ -41,8 +41,6 @@
 **/
 .Header {
 	color: #3871d0;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	position: relative;
 	z-index: 10;
 }
@@ -73,8 +71,7 @@
 
 .Header__inner {
 	width: 100%;
-	padding-left: 30px;
-	padding-right: 30px;
+	height: 650px;
 	position: relative;
 	z-index: 1;
 }
@@ -83,6 +80,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-color: #000000;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .Header__logo :global(svg) {

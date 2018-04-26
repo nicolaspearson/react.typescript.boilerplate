@@ -34,7 +34,7 @@ const Header = (props: HeaderProps) => {
 						</span>
 					</Link>
 
-					<span onClick={props.toggleNav} className="Header__nav-toggle fa fa-bars" />
+					<span onClick={props.toggleNav} hidden={true} className="Header__nav-toggle fa fa-bars" />
 
 					<SiteNav
 						theme={props.theme}
@@ -58,19 +58,5 @@ const Header = (props: HeaderProps) => {
 		</div>
 	);
 };
-
-// Header.init = ({
-// 	theme = 'light',
-// 	...props
-// }) => {
-// 	return {
-// 		theme,
-// 		flags,
-// 		pageStatus,
-// 		toggleNav: () => toggleFlag('site-nav.open'),
-// 		closeNav: () => flags.delete('site-nav.open'),
-// 		...props
-// 	};
-// };
 
 export default Header;

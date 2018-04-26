@@ -2,17 +2,16 @@ import * as React from 'react';
 import Hex from 'react-hexagon';
 
 export interface HexagonProps {
-	width: any;
-	fill: any;
-	opacity: any;
-	children: any;
-	style: any;
-	position: any;
+	width?: any;
+	fill?: any;
+	opacity?: any;
+	children?: any;
+	style?: any;
+	position?: any;
 }
 
 const Hexagon = (props: HexagonProps) => {
 	let positionStyle = {};
-	// tslint:disable jsx-boolean-value
 	const element = (
 		<Hex
 			diagonal={props.width || 200}
@@ -22,7 +21,7 @@ const Hexagon = (props: HexagonProps) => {
 				fill: props.fill,
 				...props.style
 			}}
-			flatTop
+			flatTop={true}
 		>
 			{props.children}
 		</Hex>

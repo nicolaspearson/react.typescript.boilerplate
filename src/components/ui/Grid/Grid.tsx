@@ -3,8 +3,8 @@ import * as React from 'react';
 import './style.scss';
 
 export interface GridProps {
-	children: any;
-	wrap: any;
+	children?: any;
+	wrap?: any;
 }
 
 const Grid = (props: GridProps) => (

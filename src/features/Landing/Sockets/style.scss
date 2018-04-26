@@ -1,0 +1,265 @@
+/**
+	SECTION
+**/
+.Sockets__Section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: radial-gradient(
+			1171px at 50.83% -19.58%,
+			rgba(0, 100, 255, 0.25) 0%,
+			rgba(0, 100, 255, 5e-5) 100%
+		),
+		linear-gradient(0deg, #0b0f15, #0b0f15);
+	position: relative;
+
+	.Section__content {
+		max-width: 770px;
+	}
+
+	@media screen and (min-width: 560px) {
+		.Section {
+			padding-top: 90px;
+			padding-bottom: 90px;
+		}
+	}
+
+	@media screen and (min-width: 1100px) {
+		.Section {
+			margin-top: -213px;
+			padding-top: 140px;
+			padding-bottom: 140px;
+		}
+	}
+
+	/**
+	TEXT
+**/
+	.Project__headline {
+		font-size: 24px;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	.Project__title {
+		font-family: Courier;
+		font-size: 36px;
+		font-weight: normal;
+		color: #fff;
+		margin-top: 7px;
+		min-height: 41px;
+	}
+
+	@media screen and (max-width: 680px) {
+		.Project__title {
+			min-height: 82px;
+			font-size: 28px;
+		}
+	}
+
+	@media screen and (max-width: 370px) {
+		.Project__title {
+			font-size: 24px;
+		}
+	}
+
+	.u-title {
+		color: #fff;
+	}
+
+	.u-subtitle {
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	/**
+	SOCKET
+**/
+	.Socket-list {
+		max-width: 240px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		z-index: 1;
+	}
+
+	.Socket-list::after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+
+	@media screen and (max-width: 429px) {
+		.Socket-list {
+			margin-bottom: 80px;
+		}
+
+		.Socket:nth-child(2),
+		.Socket:nth-child(11) {
+			margin-left: -20px;
+			margin-right: -20px;
+			top: 63px;
+		}
+
+		.Socket:nth-child(3),
+		.Socket:nth-child(5),
+		.Socket:nth-child(6),
+		.Socket:nth-child(7),
+		.Socket:nth-child(8),
+		.Socket:nth-child(9),
+		.Socket:nth-child(10) {
+			display: none;
+		}
+	}
+
+	@media screen and (min-width: 430px) {
+		.Socket-list {
+			max-width: 350px;
+		}
+	}
+
+	@media screen and (min-width: 430px) and (max-width: 649px) {
+		.Socket:nth-child(2),
+		.Socket:nth-child(5),
+		.Socket:nth-child(8) {
+			margin-left: -20px;
+			margin-right: -20px;
+			top: 55px;
+		}
+
+		.Socket:nth-child(11) {
+			margin-left: 70px;
+		}
+	}
+
+	@media screen and (min-width: 650px) {
+		.Socket-list {
+			padding-top: 80px;
+			max-width: 590px;
+		}
+
+		.Socket:nth-child(2),
+		.Socket:nth-child(4),
+		.Socket:nth-child(7),
+		.Socket:nth-child(9) {
+			margin-left: -20px;
+			margin-right: -20px;
+			top: 62px;
+		}
+	}
+
+	.Socket {
+		position: relative;
+		font-size: 16px;
+		display: inline-block;
+		width: 130px;
+		cursor: default;
+		margin-bottom: 10px;
+	}
+
+	.Socket--empty {
+		cursor: pointer;
+	}
+
+	.Socket__text {
+		text-anchor: middle;
+	}
+
+	.Socket__icon {
+		font-size: 32px;
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	/**
+	SEPARATOR
+**/
+	.Separator {
+		width: 2px;
+		height: 24px;
+		opacity: 0.25;
+		border: dashed 1px #ffffff;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		margin-bottom: 25px;
+	}
+
+	.Separator::after {
+		content: attr(data-after);
+		color: rgba(255, 255, 255, 0.5);
+		font-weight: 300;
+		position: absolute;
+		top: 100%;
+		transform: translateX(-50%);
+	}
+
+	/**
+	OTHER
+**/
+	div :global(a) {
+		color: #fff;
+		text-decoration: none;
+		font-weight: 500;
+		position: relative;
+		z-index: 1;
+	}
+
+	div :global(a:hover) {
+		text-decoration: underline;
+	}
+
+	:global(.react-rotating-text-cursor) {
+		animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+	}
+
+	@keyframes blinking-cursor {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+	/**
+	CTA
+**/
+	.CTA {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.CTA__subtitle {
+		margin-bottom: 30px;
+	}
+
+	@media screen and (min-width: 560px) {
+		.CTA {
+			margin-top: 90px;
+		}
+	}
+
+	@media screen and (max-width: 780px) {
+		.HiddenAtMd {
+			display: none;
+		}
+	}
+
+	.Hexagons {
+		position: absolute;
+		top: -165px;
+		transform: translateX(-20px);
+		left: auto;
+		right: auto;
+		z-index: -1;
+	}
+}
