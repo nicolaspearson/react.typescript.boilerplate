@@ -5,7 +5,6 @@ import Footer from '../../components/shared/Footer';
 import Header from '../../components/shared/Header';
 import Button from '../../components/ui/Button';
 import Head from '../../components/ui/Head';
-import Hexagon from '../../components/ui/Hexagon';
 import Page from '../../components/ui/Page';
 import FAQ from './FAQ';
 import Features from './Features';
@@ -32,16 +31,13 @@ class Landing extends React.Component {
 		return (
 			<Page>
 				<Head>
-					<title>React Material Boilerplate</title>
-					<meta name="Description" content="Material Design Template" />
+					<title>React Typescript Boilerplate</title>
+					<meta name="Description" content="React Starter Project" />
 				</Head>
 
 				<Header theme="dark">
 					<div className="CTA">
-						<h1 className="Title">
-							React Material Boilerplate is a helpful template built with Google's Material Design
-							guidelines in mind
-						</h1>
+						<h1 className="Title">This template was built using React and Typescript</h1>
 						<h2 className="Subtitle">
 							It comes with tons of useful features to kickstart your next project
 						</h2>
@@ -49,31 +45,6 @@ class Landing extends React.Component {
 						<Button primary="true" onClick={this.handleViewSourceCodeClick}>
 							View Source Code
 						</Button>
-
-						<div className="CLI">
-							<div className="CLI__inner">
-								<div className="HiddenAtSm">
-									<Hexagon width={32} fill="#7C51CD" position={{ top: '-13px', right: '60px' }} />
-									<Hexagon width={54} fill="#197eee" position={{ top: '25%', right: '-27px' }} />
-									<Hexagon
-										width={64}
-										fill="#05b470"
-										position={{ bottom: '-18px', right: '35px' }}
-									/>
-									<Hexagon
-										width={32}
-										fill="#60e0ae"
-										position={{ bottom: '-22px', right: '-17px' }}
-									/>
-									<Hexagon width={64} fill="#60e0ae" position={{ bottom: '-40px', left: '10%' }} />
-									<Hexagon width={42} fill="#05a5b4" position={{ bottom: '10%', left: '-21px' }} />
-								</div>
-								<div className="HiddenAtMd">
-									<Hexagon width={22} fill="#3cdd9e" position={{ bottom: '-45px', left: '22%' }} />
-									<Hexagon width={40} fill="#60e0ae" position={{ bottom: '-70px', right: '30%' }} />
-								</div>
-							</div>
-						</div>
 					</div>
 				</Header>
 
@@ -81,7 +52,7 @@ class Landing extends React.Component {
 				<Features />
 				<Sockets />
 				<FAQ />
-				<CTA />
+				<CTA onCtaClick={this.handleViewSourceCodeClick} />
 				<Footer />
 			</Page>
 		);

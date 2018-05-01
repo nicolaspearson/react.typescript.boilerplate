@@ -23,9 +23,11 @@ const SiteNav = (props: SiteNavProps) => (
 					<Link to="/">
 						<span className="Site-nav__item">Home</span>
 					</Link>
+
 					<Link to="/features">
 						<span className="Site-nav__item">Features</span>
 					</Link>
+
 					<div className="Dropdown">
 						<Nav stack={true}>
 							<a href="">First Feature</a>
@@ -34,10 +36,12 @@ const SiteNav = (props: SiteNavProps) => (
 							<a href="">Fourth Feature</a>
 						</Nav>
 					</div>
+
 					<Link to="/about">
 						<span className="Site-nav__item">About</span>
 					</Link>
 				</div>
+
 				<div className="Site-nav__social">
 					<a href="https://github.com/nicolaspearson/react.material.boilerplate">
 						<i className="fa fa-github" />

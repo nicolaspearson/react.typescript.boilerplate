@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 import Testimonials from '../../../components/shared/Testimonials';
-import Hexagon from '../../../components/ui/Hexagon';
 import Link from '../../../components/ui/RouterLink';
 
 import './style.scss';
@@ -9,11 +8,6 @@ import './style.scss';
 const FAQ = () => (
 	<div className="FAQ__Section">
 		<Testimonials />
-
-		<div className="HiddenAtSm">
-			<Hexagon width={100} fill="#b4f1d9" position={{ top: '60%', right: '-70px' }} />
-			<Hexagon width={24} fill="#05a5b4" position={{ bottom: '30px', left: '30px' }} />
-		</div>
 
 		<div className="Section__content u-wrapper">
 			<div className="FAQ-list" >

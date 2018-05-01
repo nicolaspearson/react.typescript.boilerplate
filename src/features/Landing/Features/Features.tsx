@@ -1,15 +1,12 @@
 import * as React from 'react';
 
 import Grid from '../../../components/ui/Grid';
-import Hexagon from '../../../components/ui/Hexagon';
 import Link from '../../../components/ui/RouterLink';
 
 import './style.scss';
 
 const Features = () => (
 	<div className="Features__Section u-wrapper">
-		<Hexagon width={32} fill="#05A5B4" position={{ top: '20px', right: '-20px' }} />
-
 		<div className="Section__header u-ta-c">
 			<h2 className="u-title">
 				At Syncano, we want to help you build technology that matters, faster
