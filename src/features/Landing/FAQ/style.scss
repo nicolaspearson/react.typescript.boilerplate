@@ -4,7 +4,7 @@
 .FAQ__Section {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff),
 		linear-gradient(#f5f6f9, #f5f6f9);
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	position: relative;
 
 	.Section__content {
@@ -12,11 +12,11 @@
 	}
 
 	@media screen and (min-width: 560px) {
-		margin-bottom: 60px;
+		margin-bottom: 15px;
 	}
 
 	@media screen and (min-width: 960px) {
-		margin-bottom: 100px;
+		margin-bottom: 20px;
 	}
 
 	.Section__content {

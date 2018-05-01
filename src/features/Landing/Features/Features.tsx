@@ -8,12 +8,11 @@ import './style.scss';
 const Features = () => (
 	<div className="Features__Section u-wrapper">
 		<div className="Section__header u-ta-c">
-			<h2 className="u-title">
-				At Syncano, we want to help you build technology that matters, faster
-			</h2>
+			<h2 className="u-title">Get a head start building something that matters, faster</h2>
 			<p className="u-subtitle">
-				Syncano’s Serverless Platform and SDKs automatically assemble and deploy your backend to the
-				cloud instantaneously - all while you build your app.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+				laboris nisi ut aliquip ex ea commodo consequat.
 			</p>
 		</div>
 
@@ -21,13 +20,14 @@ const Features = () => (
 			<Grid wrap={true}>
 				<div className="Heading">
 					<p className="Heading__item Heading__item--important">
-						Use Syncano to experiment and test your product with real users on a live production
-						platform until you achieve product/market fit. Get results faster than with any other
-						solution. Adapt, tweak and deploy at blazing speed.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 					<p className="Heading__item">
-						Take the risk and friction out of application development. As you grow, Syncano grows
-						with you - Syncano’s infrastructure will automatically scale to support your needs.
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+						officia deserunt mollit anim id est laborum.
 					</p>
 				</div>
 				<div className="Feature-list">
@@ -35,15 +35,15 @@ const Features = () => (
 						<Link
 							to={{
 								pathname: '/features',
-								hash: '#RegistriesSection'
+								hash: '#FirstFeatureSection'
 							}}
 						>
 							<div className="Feature__inner">
 								<div className="Feature__icon fa fa-star" />
-								<h4 className="Feature__title">Syncano Registry</h4>
+								<h4 className="Feature__title">First Feature</h4>
 								<p>
-									Don’t rebuild what has already been built. The registry is your toolbox of
-									reusable backend code.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
 								</p>
 							</div>
 						</Link>
@@ -52,15 +52,15 @@ const Features = () => (
 						<Link
 							to={{
 								pathname: '/features',
-								hash: '#AutomationSDKSection'
+								hash: '#SecondFeatureSection'
 							}}
 						>
 							<div className="Feature__inner">
 								<div className="Feature__icon fa fa-star" />
-								<h4 className="Feature__title">Syncano Automation SDK</h4>
+								<h4 className="Feature__title">Second Feature</h4>
 								<p>
-									Operate your backend directly from your local development environment. No, weird
-									GUIs, no hassle, more efficiency!
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
 								</p>
 							</div>
 						</Link>
@@ -69,15 +69,16 @@ const Features = () => (
 						<Link
 							to={{
 								pathname: '/features',
-								hash: '#CommunitySection'
+								hash: '#ThirdFeatureSection'
 							}}
 						>
 							<div className="Feature__inner">
 								<div className="Feature__icon fa fa-star" />
-								<h4 className="Feature__title">Syncano Community</h4>
+								<h4 className="Feature__title">Third Feature</h4>
 								<p>
-									Crowd + Cloud. Harness the power of our community, and give yourself more creative
-									freedom. Share, build, collaborate.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 								</p>
 							</div>
 						</Link>
@@ -86,15 +87,16 @@ const Features = () => (
 						<Link
 							to={{
 								pathname: '/features',
-								hash: '#CloudOsSection'
+								hash: '#FourthFeatureSection'
 							}}
 						>
 							<div className="Feature__inner">
 								<div className="Feature__icon fa fa-star" />
-								<h4 className="Feature__title">Syncano Cloud OS</h4>
+								<h4 className="Feature__title">Fourth Feature</h4>
 								<p>
-									Throw any Socket from the Registry into the Syncano Cloud OS, and its
-									functionality becomes immediately available.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 								</p>
 							</div>
 						</Link>

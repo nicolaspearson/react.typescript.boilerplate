@@ -39,7 +39,7 @@ class Landing extends React.Component {
 					<div className="CTA">
 						<h1 className="Title">This template was built using React and Typescript</h1>
 						<h2 className="Subtitle">
-							It comes with tons of useful features to kickstart your next project
+							It comes with tons of useful features to help kickstart your next project
 						</h2>
 
 						<Button primary="true" onClick={this.handleViewSourceCodeClick}>
@@ -50,7 +50,7 @@ class Landing extends React.Component {
 
 				<Innovation />
 				<Features />
-				<Sockets />
+				<Sockets onCtaClick={this.handleViewSourceCodeClick} />
 				<FAQ />
 				<CTA onCtaClick={this.handleViewSourceCodeClick} />
 				<Footer />
