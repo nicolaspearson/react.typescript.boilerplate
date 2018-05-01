@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import CTA from '../../components/shared/CTA';
+import Footer from '../../components/shared/Footer';
 import Header from '../../components/shared/Header';
 import Button from '../../components/ui/Button';
 import Head from '../../components/ui/Head';
@@ -81,6 +82,7 @@ class Landing extends React.Component {
 				<Sockets />
 				<FAQ />
 				<CTA />
+				<Footer />
 			</Page>
 		);
 	}

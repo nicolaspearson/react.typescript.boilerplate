@@ -14,7 +14,7 @@ export interface SiteNavProps {
 
 const SiteNav = (props: SiteNavProps) => (
 	<div
-		className={`Site-nav t-${props.theme} ${props.isOpen ? 'is-open' : undefined}`}
+		className={`Site-nav t-${props.theme} ${props.isOpen ? 'is-open' : ''}`}
 		onClick={props.closeNav}
 	>
 		<div className="Site-nav__inner">
