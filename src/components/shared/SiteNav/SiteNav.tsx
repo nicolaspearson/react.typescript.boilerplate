@@ -1,14 +1,14 @@
 import * as React from 'react';
 
-import './style.scss';
-
 import Nav from '../../ui/Nav';
 import Link from '../../ui/RouterLink';
+
+import './style.scss';
 
 export interface SiteNavProps {
 	isOpen?: boolean;
 	theme?: string;
-	toggleSignIn?: () => {};
+	toggleSignUp?: () => {};
 	closeNav?: () => {};
 }
 
@@ -28,10 +28,10 @@ const SiteNav = (props: SiteNavProps) => (
 					</Link>
 					<div className="Dropdown">
 						<Nav stack={true}>
-							<a href="">First</a>
-							<a href="">Second</a>
-							<a href="">Third</a>
-							<a href="">Fourth</a>
+							<a href="">First Feature</a>
+							<a href="">Second Feature</a>
+							<a href="">Third Feature</a>
+							<a href="">Fourth Feature</a>
 						</Nav>
 					</div>
 					<Link to="/about">
@@ -43,6 +43,10 @@ const SiteNav = (props: SiteNavProps) => (
 						<i className="fa fa-github" />
 					</a>
 				</div>
+
+				<a className="Site-nav__item Site-nav__item--login" onClick={props.toggleSignUp}>
+					Sign up<i className="fa fa-arrow-right" />
+				</a>
 			</Nav>
 		</div>
 	</div>

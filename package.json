@@ -1,7 +1,8 @@
 {
 	"name": "react.typescript.boilerplate",
 	"version": "1.0.0",
-	"description": "This is a React Boilerplate project, built using Typescript, React, and Material Design.",
+	"description":
+		"This is a React Boilerplate project, built using Typescript, React, and Material Design.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/nicolaspearson/react.material.boilerplate"
@@ -34,16 +35,16 @@
 		"@types/node": "^9.6.6",
 		"@types/prop-types": "^15.5.2",
 		"@types/rc-slider": "^8.2.3",
-		"@types/react": "^16.3.12",
+		"@types/react": "^16.3.13",
 		"@types/react-dom": "^16.0.5",
 		"@types/react-router": "^4.0.24",
 		"@types/react-router-dom": "^4.2.6",
-		"autoprefixer": "8.3.0",
-		"babel-jest": "^22.1.0",
-		"babel-loader": "^7.1.2",
+		"autoprefixer": "8.4.1",
+		"babel-jest": "^22.4.3",
+		"babel-loader": "^7.1.4",
 		"babel-preset-react-app": "^3.1.1",
 		"case-sensitive-paths-webpack-plugin": "2.1.2",
-		"chalk": "2.4.0",
+		"chalk": "2.4.1",
 		"css-loader": "0.28.11",
 		"dotenv": "5.0.1",
 		"dotenv-expand": "4.2.0",
@@ -53,9 +54,9 @@
 		"fs-extra": "5.0.0",
 		"html-webpack-plugin": "3.2.0",
 		"jest": "22.4.3",
-		"node-sass": "^4.8.3",
+		"node-sass": "^4.9.0",
 		"object-assign": "4.1.1",
-		"postcss-flexbugs-fixes": "3.3.0",
+		"postcss-flexbugs-fixes": "3.3.1",
 		"postcss-loader": "2.1.4",
 		"prettier": "^1.12.1",
 		"promise": "8.0.1",
@@ -63,30 +64,26 @@
 		"react-dev-utils": "^5.0.1",
 		"resolve": "1.7.1",
 		"sass-loader": "^7.0.1",
-		"source-map-loader": "^0.2.1",
+		"source-map-loader": "^0.2.3",
 		"style-loader": "0.21.0",
 		"sw-precache-webpack-plugin": "0.11.5",
 		"ts-jest": "22.4.4",
 		"ts-loader": "^2.3.7",
 		"tsconfig-paths-webpack-plugin": "^2.0.0",
-		"tslint": "^5.7.0",
-		"tslint-config-prettier": "^1.10.0",
-		"tslint-react": "^3.2.0",
+		"tslint": "^5.9.1",
+		"tslint-config-prettier": "^1.12.0",
+		"tslint-react": "^3.5.1",
 		"typescript": "^2.8.3",
-		"uglifyjs-webpack-plugin": "^1.1.8",
+		"uglifyjs-webpack-plugin": "^1.2.5",
 		"url-loader": "1.0.1",
 		"webpack": "3.8.1",
 		"webpack-dev-server": "2.9.4",
-		"webpack-manifest-plugin": "2.0.1",
+		"webpack-manifest-plugin": "2.0.2",
 		"whatwg-fetch": "2.0.4"
 	},
 	"jest": {
-		"collectCoverageFrom": [
-			"src/**/*.{js,jsx,ts,tsx}"
-		],
-		"setupFiles": [
-			"<rootDir>/config/polyfills.js"
-		],
+		"collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
+		"setupFiles": ["<rootDir>/config/polyfills.js"],
 		"testMatch": [
 			"<rootDir>/src/**/__tests__/**/*.(j|t)s?(x)",
 			"<rootDir>/src/**/?(*.)(spec|test).(j|t)s?(x)"
@@ -99,9 +96,7 @@
 			"^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
 			"^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
 		},
-		"transformIgnorePatterns": [
-			"[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|ts|tsx)$"
-		],
+		"transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|ts|tsx)$"],
 		"moduleNameMapper": {
 			"^react-native$": "react-native-web"
 		},
@@ -120,14 +115,13 @@
 		],
 		"globals": {
 			"ts-jest": {
-				"tsConfigFile": "/Users/nicpearson/Work/Personal/Dev/React/react.typescript.boilerplate/tsconfig.test.json"
+				"tsConfigFile":
+					"/Users/nicpearson/Work/Personal/Dev/React/react.typescript.boilerplate/tsconfig.test.json"
 			}
 		}
 	},
 	"babel": {
-		"presets": [
-			"react-app"
-		]
+		"presets": ["react-app"]
 	},
 	"eslintConfig": {
 		"extends": "react-app"

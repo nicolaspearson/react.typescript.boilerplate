@@ -12,7 +12,6 @@ export interface HeaderProps {
 	theme?: string;
 	toggleNav?: () => {};
 	toggleSignUp?: () => {};
-	toggleSignIn?: () => {};
 	flags?: any;
 	pageStatus?: any;
 	closeNav?: () => {};
@@ -34,11 +33,13 @@ const Header = (props: HeaderProps) => {
 						</span>
 					</Link>
 
-					<span onClick={props.toggleNav} hidden={true} className="Header__nav-toggle fa fa-bars" />
+					<div className="Header__nav-toggle">
+						<span onClick={props.toggleNav} className="fa fa-bars" />
+					</div>
 
 					<SiteNav
 						theme={props.theme}
-						toggleSignIn={props.toggleSignIn}
+						toggleSignUp={props.toggleSignUp}
 						isOpen={props.flags && props.flags.has('site-nav.open')}
 						closeNav={props.closeNav}
 					/>

@@ -1,7 +1,6 @@
 import * as React from 'react';
 
-import './style.scss';
-
+import CTA from '../../components/shared/CTA';
 import Header from '../../components/shared/Header';
 import Button from '../../components/ui/Button';
 import Head from '../../components/ui/Head';
@@ -11,6 +10,8 @@ import FAQ from './FAQ';
 import Features from './Features';
 import Innovation from './Innovation';
 import Sockets from './Sockets';
+
+import './style.scss';
 
 export interface LandingProps {
 	toggleSignUpModal?: () => {};
@@ -79,6 +80,7 @@ class Landing extends React.Component {
 				<Features />
 				<Sockets />
 				<FAQ />
+				<CTA />
 			</Page>
 		);
 	}
