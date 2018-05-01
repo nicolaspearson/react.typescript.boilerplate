@@ -1,6 +1,6 @@
-# README
+# React Typescript Boilerplate
 
-This is a React Boilerplate project, built using Typescript, React, and Material Design.
+This is a React Boilerplate project, built using Typescript, and React.
 
 _Note: This project was bootstrapped from Create React App._
 

@@ -1,11 +1,10 @@
 {
 	"name": "react.typescript.boilerplate",
 	"version": "1.0.0",
-	"description":
-		"This is a React Boilerplate project, built using Typescript, React, and Material Design.",
+	"description": "This is a React Boilerplate project, built using Typescript, and React.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nicolaspearson/react.material.boilerplate"
+		"url": "https://github.com/nicolaspearson/react.typescript.boilerplate"
 	},
 	"license": "GPL-3.0+",
 	"scripts": {
