@@ -9,26 +9,17 @@ const Innovation = () => (
 		<div className="Heading u-wrapper">
 			<Grid wrap={true}>
 				<div className="Heading__item Heading__item--important">
-					<b>React Boilerplate</b> is a development platform for building more, faster by leveraging
-					existing backend code. Developers can finally spend their time solving app specific
-					challenges.
+					<b>React Typescript Boilerplate</b> is a starter project for building your next web app
+					faster. Take advantage of the prebuilt components and styles that are available in the
+					project.
 				</div>
 				<div className="Heading__item">
-					Technology transforms the unthinkable into reality. The Pacemaker saves millions from the
-					grief of loss. There’s still abundant untapped opportunity to change the world through the
-					apps you build.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</div>
 			</Grid>
 		</div>
-
-		{/* <div className="Section__header u-wrapper u-ta-c">
-			<h2 className="u-title">Speed of innovation matters</h2>
-			<p className="u-subtitle">Go build something amazing!</p>
-		</div>
-
-		<div className="Video u-wrapper">
-			<div className="Video__inner" />
-		</div> */}
 	</div>
 );
 
