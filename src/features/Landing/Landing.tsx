@@ -8,8 +8,8 @@ import Head from '../../components/ui/Head';
 import Page from '../../components/ui/Page';
 import FAQ from './FAQ';
 import Features from './Features';
+import Hero from './Hero';
 import Innovation from './Innovation';
-import Sockets from './Sockets';
 
 import './style.scss';
 
@@ -50,7 +50,7 @@ class Landing extends React.Component {
 
 				<Innovation />
 				<Features />
-				<Sockets onCtaClick={this.handleViewSourceCodeClick} />
+				<Hero onCtaClick={this.handleViewSourceCodeClick} />
 				<FAQ />
 				<CTA onCtaClick={this.handleViewSourceCodeClick} />
 				<Footer />

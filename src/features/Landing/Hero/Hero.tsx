@@ -9,8 +9,8 @@ export interface SocketProps {
 	onCtaClick?: () => void;
 }
 
-const Sockets = (props: SocketProps) => (
-	<div className="Sockets__Section">
+const Hero = (props: SocketProps) => (
+	<div className="Hero__Section">
 		<div className="Section__content u-wrapper u-ta-c">
 			<div className="Project">
 				<h2 className="Project__headline">Start building your next project</h2>
@@ -40,4 +40,4 @@ const Sockets = (props: SocketProps) => (
 	</div>
 );
 
-export default Sockets;
+export default Hero;
