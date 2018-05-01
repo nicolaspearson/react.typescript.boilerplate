@@ -11,10 +11,8 @@
 	}
 
 	@media screen and (min-width: 560px) {
-		.Section {
-			margin-top: 90px;
-			margin-bottom: -45px;
-		}
+		margin-top: 90px;
+		margin-bottom: -45px;
 
 		.Section__header {
 			margin-top: 90px;
@@ -22,15 +20,13 @@
 	}
 
 	@media screen and (min-width: 960px) {
-		.Section {
-			margin-top: 140px;
-			margin-bottom: -90px;
-		}
+		margin-top: 140px;
+		margin-bottom: -90px;
 	}
 
 	/**
-	HEADING
-**/
+		HEADING
+	**/
 	.Heading {
 		max-width: 870px;
 		color: #8d9299;
@@ -56,8 +52,8 @@
 	}
 
 	/**
-	Video
-**/
+		Video
+	**/
 	.Video {
 		max-width: 1170px;
 		margin-top: 30px;

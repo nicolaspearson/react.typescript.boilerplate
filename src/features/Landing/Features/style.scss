@@ -30,10 +30,8 @@
 	}
 
 	@media screen and (min-width: 560px) {
-		.Section {
-			margin-top: 90px;
-			margin-bottom: 90px;
-		}
+		margin-top: 90px;
+		margin-bottom: 90px;
 
 		.Section__content {
 			justify-content: space-between;
@@ -46,15 +44,13 @@
 	}
 
 	@media screen and (min-width: 1080px) {
-		.Section {
-			margin-top: 140px;
-			margin-bottom: 140px;
-		}
+		margin-top: 140px;
+		margin-bottom: 140px;
 	}
 
 	/**
-	HEADING
-**/
+		HEADING
+	**/
 	.Heading {
 		color: #8d9299;
 		font-size: 20px;
@@ -91,8 +87,8 @@
 	}
 
 	/**
-	FEATURE
-**/
+		FEATURE
+	**/
 	.Feature-list {
 		margin-bottom: -30px;
 	}

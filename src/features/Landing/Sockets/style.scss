@@ -17,23 +17,19 @@
 	}
 
 	@media screen and (min-width: 560px) {
-		.Section {
-			padding-top: 90px;
-			padding-bottom: 90px;
-		}
+		padding-top: 90px;
+		padding-bottom: 90px;
 	}
 
 	@media screen and (min-width: 1100px) {
-		.Section {
-			margin-top: -213px;
-			padding-top: 140px;
-			padding-bottom: 140px;
-		}
+		margin-top: -213px;
+		padding-top: 140px;
+		padding-bottom: 140px;
 	}
 
 	/**
-	TEXT
-**/
+		TEXT
+	**/
 	.Project__headline {
 		font-size: 24px;
 		font-weight: 300;
@@ -71,8 +67,8 @@
 	}
 
 	/**
-	SOCKET
-**/
+		SOCKET
+	**/
 	.Socket-list {
 		max-width: 240px;
 		display: flex;
@@ -177,8 +173,8 @@
 	}
 
 	/**
-	SEPARATOR
-**/
+		SEPARATOR
+	**/
 	.Separator {
 		width: 2px;
 		height: 24px;
@@ -200,8 +196,8 @@
 	}
 
 	/**
-	OTHER
-**/
+		OTHER
+	**/
 	div :global(a) {
 		color: #fff;
 		text-decoration: none;
@@ -231,8 +227,8 @@
 	}
 
 	/**
-	CTA
-**/
+		CTA
+	**/
 	.CTA {
 		margin-top: 30px;
 		text-align: center;

@@ -2,16 +2,17 @@ import * as React from 'react';
 
 import './style.scss';
 
+// The string props should be booleans but receive a console warning
 export interface ButtonProps {
 	children?: any;
-	primary?: any;
-	secondary?: any;
-	outline?: any;
-	github?: any;
-	google?: any;
-	facebook?: any;
-	full?: any;
-	square?: any;
+	primary?: string;
+	secondary?: string;
+	outline?: string;
+	github?: string;
+	google?: string;
+	facebook?: string;
+	full?: string;
+	square?: string;
 	onClick?: () => void;
 }
 

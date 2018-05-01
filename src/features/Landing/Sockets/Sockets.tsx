@@ -1,6 +1,7 @@
 import * as React from 'react';
 import ReactRotatingText from 'react-rotating-text';
 
+import Button from '../../../components/ui/Button';
 import Hexagon from '../../../components/ui/Hexagon';
 
 import './style.scss';
@@ -73,6 +74,10 @@ const Sockets = (props: SocketProps) => (
 				to accelerate and automate their software development process. <br />
 				Together, let’s enable the autonomous developer.
 			</p>
+
+			<Button primary="true" onClick={props.toggleSignUpModal}>
+				Get started for free
+			</Button>
 		</div>
 	</div>
 );

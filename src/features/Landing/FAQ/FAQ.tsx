@@ -16,7 +16,7 @@ const FAQ = () => (
 		</div>
 
 		<div className="Section__content u-wrapper">
-			<div className="FAQ-list" />
+			<div className="FAQ-list" >
 				<div className='FAQ'>
 					<h4 className='FAQ__title'>How is Syncano different from other cloud backend products?</h4>
 					<p>Syncano has been created with developers in mind; built for engineers by engineers. During the development of the latest version, we carefully listened to the feedback and learned our lessons. The outcome is a tool that seamlessly integrates with your workflow and takes it to the next level. With Syncano, working with the backend feels like http://locallhost.</p>
@@ -41,6 +41,7 @@ const FAQ = () => (
 					<h4 className='FAQ__title'>How can I get support?</h4>
 					<p>You can join our <Link to='/slack-invite'>Slack channel</Link> for community support, talk to us via the messenger in the <a href={process.env.DASHBOARD_URL}>Dashboard</a> after you log in, or simply <a href='mailto:hello@syncano.io'>send us an email</a>. You can also browse through our <a href='https://docs.syncano.io/#/'>documentation</a>.</p>
 				</div>
+			</div>
 			<div className="CTA">
 				<a href="https://docs.syncano.io/#/">Read the docs</a>,{' '}
 				<a href="mailto:hello@syncano.com">ask your own question</a> or join our{' '}
