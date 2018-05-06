@@ -8,7 +8,6 @@ import './style.scss';
 export interface SiteNavProps {
 	isOpen?: boolean;
 	theme?: string;
-	toggleSignUp?: () => {};
 	closeNav?: () => {};
 }
 
@@ -28,15 +27,6 @@ const SiteNav = (props: SiteNavProps) => (
 						<span className="Site-nav__item">Features</span>
 					</Link>
 
-					<div className="Dropdown">
-						<Nav stack={true}>
-							<a href="">First Feature</a>
-							<a href="">Second Feature</a>
-							<a href="">Third Feature</a>
-							<a href="">Fourth Feature</a>
-						</Nav>
-					</div>
-
 					<Link to="/about">
 						<span className="Site-nav__item">About</span>
 					</Link>
@@ -47,10 +37,6 @@ const SiteNav = (props: SiteNavProps) => (
 						<i className="fa fa-github" />
 					</a>
 				</div>
-
-				<a className="Site-nav__item Site-nav__item--login" onClick={props.toggleSignUp}>
-					Sign up<i className="fa fa-arrow-right" />
-				</a>
 			</Nav>
 		</div>
 	</div>

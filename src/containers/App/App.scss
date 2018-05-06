@@ -1,56 +1,5 @@
 @import '../../styles/variables';
 
-.app-landing-page {
-  z-index: $zindex-navbar;
-  background-color: $color-white;
-
-  .main-content {
-    overflow: hidden;
-  }
-
-  .hero {
-    position: relative;
-    border: 0;
-    color: $color-white;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 40px 0 0;
-
-    background: url(../../assets/images/background/5.png) repeat-y 0 0 fixed;
-    background-size: cover;
-
-    .container {
-      padding-top: 40px;
-      padding-bottom: 210px;
-    }
-
-    h2 {
-      font-size: 2rem;
-      line-height: 2.2rem;
-      margin-bottom: 20px;
-      @media (min-width: map-get($grid-breakpoints, md)) {
-        font-size: 2.8rem;
-        line-height: 3rem;
-        margin-bottom: 32px;
-      }
-    }
-
-    p {
-      max-width: 700px;
-      margin: 0 auto;
-      font-size: 16px;
-      opacity: 0.7;
-    }
-
-    .btn-cta {
-      margin: 3rem 0 0;
-      letter-spacing: 0.8px;
-      font-size: 14px;
-      min-width: 220px;
-      padding: 1em;
-      text-transform: uppercase;
-      color: #f5f5f5;
-      color: rgba(255, 255, 255, 0.85);
-    }
-  }
+.AppMainPage {
+	background-color: $color-white;
 }

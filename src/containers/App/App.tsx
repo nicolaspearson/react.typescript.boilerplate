@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import About from 'features/About';
 import Landing from 'features/Landing';
 
 import './App.scss';
@@ -13,10 +14,10 @@ class App extends React.Component {
 	public render() {
 		return (
 			<Router>
-				<section className="app-landing-page">
-					<Landing />
-					<div className="main-content" />
-				</section>
+				<div className="AppMainPage">
+					<Route path="/" exact={true} component={Landing} />
+					<Route path="/about" exact={true} component={About} />
+				</div>
 			</Router>
 		);
 	}

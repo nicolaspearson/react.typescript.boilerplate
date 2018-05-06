@@ -11,7 +11,6 @@ export interface HeaderProps {
 	subtitle?: string;
 	theme?: string;
 	toggleNav?: () => {};
-	toggleSignUp?: () => {};
 	flags?: any;
 	pageStatus?: any;
 	closeNav?: () => {};
@@ -39,7 +38,6 @@ const Header = (props: HeaderProps) => {
 
 					<SiteNav
 						theme={props.theme}
-						toggleSignUp={props.toggleSignUp}
 						isOpen={props.flags && props.flags.has('site-nav.open')}
 						closeNav={props.closeNav}
 					/>
