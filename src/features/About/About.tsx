@@ -5,6 +5,7 @@ import Footer from '../../components/shared/Footer';
 import Header from '../../components/shared/Header';
 import Head from '../../components/ui/Head';
 import Page from '../../components/ui/Page';
+import Spotlight from './Spotlight';
 
 import './style.scss';
 
@@ -38,6 +39,8 @@ class About extends React.Component {
 						</h2>
 					</div>
 				</Header>
+
+				<Spotlight />
 
 				<CTA onCtaClick={this.handleViewSourceCodeClick} />
 				<Footer />

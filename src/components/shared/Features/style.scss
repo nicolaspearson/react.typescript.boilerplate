@@ -8,6 +8,10 @@
 	position: relative;
 	z-index: 1;
 
+	a:hover {
+		text-decoration: none;
+	}
+
 	.u-title {
 		max-width: 800px;
 		margin-left: auto;

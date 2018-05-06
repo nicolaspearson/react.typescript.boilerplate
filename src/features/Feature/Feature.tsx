@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import CTA from '../../components/shared/CTA';
+import Features from '../../components/shared/Features';
 import Footer from '../../components/shared/Footer';
 import Header from '../../components/shared/Header';
 import Head from '../../components/ui/Head';
@@ -8,12 +9,12 @@ import Page from '../../components/ui/Page';
 
 import './style.scss';
 
-export interface FeaturesProps {
+export interface FeatureProps {
 	pageTitle?: string;
 }
 
-class Features extends React.Component {
-	constructor(props: FeaturesProps, context?: any) {
+class Feature extends React.Component {
+	constructor(props: FeatureProps, context?: any) {
 		super(props, context);
 		this.handleViewSourceCodeClick = this.handleViewSourceCodeClick.bind(this);
 	}
@@ -39,6 +40,8 @@ class Features extends React.Component {
 					</div>
 				</Header>
 
+				<Features />
+
 				<CTA onCtaClick={this.handleViewSourceCodeClick} />
 				<Footer />
 			</Page>
@@ -46,4 +49,4 @@ class Features extends React.Component {
 	}
 }
 
-export default Features;
+export default Feature;

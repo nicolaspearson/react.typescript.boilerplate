@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import Grid from '../../../components/ui/Grid';
-import Link from '../../../components/ui/RouterLink';
+import Grid from '../../ui/Grid';
+import Link from '../../ui/RouterLink';
 
 import './style.scss';
 

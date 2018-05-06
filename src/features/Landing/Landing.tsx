@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 import CTA from '../../components/shared/CTA';
+import Features from '../../components/shared/Features';
 import Footer from '../../components/shared/Footer';
 import Header from '../../components/shared/Header';
 import Button from '../../components/ui/Button';
 import Head from '../../components/ui/Head';
 import Page from '../../components/ui/Page';
 import FAQ from './FAQ';
-import Features from './Features';
 import Hero from './Hero';
 import Innovation from './Innovation';
 
@@ -52,6 +52,7 @@ class Landing extends React.Component {
 				<Features />
 				<Hero onCtaClick={this.handleViewSourceCodeClick} />
 				<FAQ />
+
 				<CTA onCtaClick={this.handleViewSourceCodeClick} />
 				<Footer />
 			</Page>
