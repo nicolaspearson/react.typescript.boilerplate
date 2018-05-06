@@ -48,6 +48,7 @@
 		"jsdoc-format": true,
 		"arrow-parens": false,
 		"await-promise": true,
-		"ordered-imports": true
+		"ordered-imports": true,
+		"no-namespace": false
 	}
 }

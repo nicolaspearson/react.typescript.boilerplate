@@ -3,8 +3,13 @@
 		"Dribbble",
 		"Parens",
 		"Requireable",
+		"devtools",
+		"flexbugs",
 		"kickstart",
+		"polyfills",
+		"precache",
 		"roboto",
+		"uglifyjs",
 		"unmount"
 	],
 	"editor.formatOnPaste": false,
