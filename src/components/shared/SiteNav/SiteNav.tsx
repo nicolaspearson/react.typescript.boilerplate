@@ -18,19 +18,17 @@ const SiteNav = (props: SiteNavProps) => (
 	>
 		<div className="Site-nav__inner">
 			<Nav>
-				<div>
-					<Link to="/">
-						<span className="Site-nav__item">Home</span>
-					</Link>
+				<Link to="/">
+					<span className="Site-nav__item">Home</span>
+				</Link>
 
-					<Link to="/features">
-						<span className="Site-nav__item">Features</span>
-					</Link>
+				<Link to="/features">
+					<span className="Site-nav__item">Features</span>
+				</Link>
 
-					<Link to="/about">
-						<span className="Site-nav__item">About</span>
-					</Link>
-				</div>
+				<Link to="/about">
+					<span className="Site-nav__item">About</span>
+				</Link>
 
 				<div className="Site-nav__social">
 					<a href="https://github.com/nicolaspearson/react.material.boilerplate">
