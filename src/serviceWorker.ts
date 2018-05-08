@@ -1,9 +1,8 @@
-// tslint:disable:no-console
 // In production, we register a service worker to serve assets from local cache.
 
 // This lets the app load faster on subsequent visits in production, and gives
 // it offline capabilities. However, it also means that developers (and users)
-// will only see deployed updates on the 'N+1' visit to a page, since previously
+// will only see deployed updates on the "N+1" visit to a page, since previously
 // cached resources are updated in the background.
 
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
@@ -17,14 +16,14 @@ const isLocalhost = Boolean(
 		window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/)
 );
 
-export default function register() {
+export function register(config: any) {
 	if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
 		// The URL constructor is available in all browsers that support SW.
 		const publicUrl = new URL(process.env.PUBLIC_URL!, window.location.toString());
 		if (publicUrl.origin !== window.location.origin) {
 			// Our service worker won't work if PUBLIC_URL is on a different origin
 			// from what our page is served on. This might happen if a CDN is used to
-			// serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
+			// serve assets; see https://github.com/facebook/create-react-app/issues/2374
 			return;
 		}
 
@@ -32,8 +31,8 @@ export default function register() {
 			const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
 			if (isLocalhost) {
-				// This is running on localhost. Lets check if a service worker still exists or not.
-				checkValidServiceWorker(swUrl);
+				// This is running on localhost. Let's check if a service worker still exists or not.
+				checkValidServiceWorker(swUrl, config);
 
 				// Add some additional logging to localhost, pointing developers to the
 				// service worker/PWA documentation.
@@ -45,13 +44,13 @@ export default function register() {
 				});
 			} else {
 				// Is not local host. Just register service worker
-				registerValidSW(swUrl);
+				registerValidSW(swUrl, config);
 			}
 		});
 	}
 }
 
-function registerValidSW(swUrl: string) {
+function registerValidSW(swUrl: string, config: any) {
 	navigator.serviceWorker
 		.register(swUrl)
 		.then((registration) => {
@@ -63,14 +62,24 @@ function registerValidSW(swUrl: string) {
 							if (navigator.serviceWorker.controller) {
 								// At this point, the old content will have been purged and
 								// the fresh content will have been added to the cache.
-								// It's the perfect time to display a 'New content is
-								// available; please refresh.' message in your web app.
+								// It's the perfect time to display a "New content is
+								// available; please refresh." message in your web app.
 								console.log('New content is available; please refresh.');
+
+								// Execute callback
+								if (config.onUpdate) {
+									config.onUpdate(registration);
+								}
 							} else {
 								// At this point, everything has been precached.
 								// It's the perfect time to display a
-								// 'Content is cached for offline use.' message.
+								// "Content is cached for offline use." message.
 								console.log('Content is cached for offline use.');
+
+								// Execute callback
+								if (config.onSuccess) {
+									config.onSuccess(registration);
+								}
 							}
 						}
 					};
@@ -82,7 +91,7 @@ function registerValidSW(swUrl: string) {
 		});
 }
 
-function checkValidServiceWorker(swUrl: string) {
+function checkValidServiceWorker(swUrl: string, config: any) {
 	// Check if the service worker can be found. If it can't reload the page.
 	fetch(swUrl)
 		.then((response) => {
@@ -99,7 +108,7 @@ function checkValidServiceWorker(swUrl: string) {
 				});
 			} else {
 				// Service worker found. Proceed as normal.
-				registerValidSW(swUrl);
+				registerValidSW(swUrl, config);
 			}
 		})
 		.catch(() => {
