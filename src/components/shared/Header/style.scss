@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 /**
 	PAGE HEAD
 **/
@@ -7,7 +9,7 @@
 }
 
 .PageHead__title {
-	color: #0b0f15;
+	color: $color-font-dark;
 	font-size: 28px;
 	line-height: 36px;
 }
@@ -16,7 +18,7 @@
 	font-size: 20px;
 	line-height: 32px;
 	font-weight: 300;
-	color: #7a7f87;
+	color: $color-font-light;
 	padding-top: 5px;
 }
 
@@ -40,18 +42,17 @@
 	HEADER
 **/
 .Header {
-	color: #3871d0;
 	padding-top: 10px;
 	position: relative;
 	z-index: 10;
 }
 
 .Header.t-dark {
-	color: #fff;
+	color: $color-white;
 }
 
 .Header.t-dark {
-	background: linear-gradient(0deg, #0b0f15, #0b0f15);
+	background: linear-gradient(0deg, $color-darkest, $color-darkest);
 }
 
 .Header.t-dark::before {
@@ -64,8 +65,8 @@
 	left: 0;
 	background: radial-gradient(
 		875.03px at 50% 100%,
-		rgba(0, 100, 255, 0.25) 0%,
-		rgba(0, 100, 255, 5e-5) 100%
+		$color-heading-background-1 0%,
+		$color-heading-background-2 100%
 	);
 	animation: pulseBG 3s infinite linear;
 }
@@ -90,11 +91,11 @@
 }
 
 .Header__logo :global(path) {
-	fill: #0b0f15;
+	fill: $color-darkest;
 }
 
 .t-dark .Header__logo :global(path) {
-	fill: #fff;
+	fill: $color-white;
 }
 
 .Header__nav-toggle {

@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 /**
 	SECTION
 **/
@@ -29,7 +31,7 @@
 	**/
 	.Heading {
 		max-width: 870px;
-		color: #8d9299;
+		color: $color-font-medium;
 		font-size: 20px;
 		line-height: 30px;
 	}
@@ -47,7 +49,7 @@
 	.Heading__item--important {
 		font-size: 24px;
 		line-height: 36px;
-		color: #0b0d11;
+		color: $color-font-darkest;
 		font-weight: 300;
 	}
 
@@ -69,7 +71,7 @@
 	.Video__inner {
 		border-radius: 8px;
 		padding-top: 55.6%;
-		background-image: linear-gradient(119deg, #0b0f15, #3e434a);
+		background-image: linear-gradient(119deg, $color-darkest, #3e434a);
 	}
 
 	@media screen and (max-width: 560px) {

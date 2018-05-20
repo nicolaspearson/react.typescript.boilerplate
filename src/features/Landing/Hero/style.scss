@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 /**
 	SECTION
 **/
@@ -9,7 +11,7 @@
 			rgba(0, 100, 255, 0.25) 0%,
 			rgba(0, 100, 255, 5e-5) 100%
 		),
-		linear-gradient(0deg, #0b0f15, #0b0f15);
+		linear-gradient(0deg, $color-darkest, $color-darkest);
 	position: relative;
 
 	.Section__content {
@@ -33,14 +35,14 @@
 	.Project__headline {
 		font-size: 24px;
 		font-weight: 300;
-		color: rgba(255, 255, 255, 0.5);
+		color: $color-font-light-alpha;
 	}
 
 	.Project__title {
 		font-family: Courier;
 		font-size: 36px;
 		font-weight: normal;
-		color: #fff;
+		color: $color-white;
 		margin-top: 7px;
 		min-height: 41px;
 	}
@@ -59,11 +61,11 @@
 	}
 
 	.u-title {
-		color: #fff;
+		color: $color-white;
 	}
 
 	.u-subtitle {
-		color: rgba(255, 255, 255, 0.5);
+		color: $color-font-light-alpha;
 	}
 
 	/**
@@ -165,7 +167,7 @@
 
 	.Socket__icon {
 		font-size: 32px;
-		color: #fff;
+		color: $color-white;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -179,7 +181,7 @@
 		width: 2px;
 		height: 24px;
 		opacity: 0.25;
-		border: dashed 1px #ffffff;
+		border: dashed 1px $color-white;
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
@@ -188,7 +190,7 @@
 
 	.Separator::after {
 		content: attr(data-after);
-		color: rgba(255, 255, 255, 0.5);
+		color: $color-font-light-alpha;
 		font-weight: 300;
 		position: absolute;
 		top: 100%;
@@ -199,7 +201,7 @@
 		OTHER
 	**/
 	div :global(a) {
-		color: #fff;
+		color: $color-white;
 		text-decoration: none;
 		font-weight: 500;
 		position: relative;

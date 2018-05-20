@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 div {
 	display: inline-block;
 	position: relative;
@@ -15,7 +17,7 @@ input {
 
 input:focus {
 	outline: none;
-	border-color: #3871d0;
+	border-color: $color-secondary;
 	box-shadow: 0 0 0 3px rgba(56, 113, 208, 0.15);
 }
 
@@ -35,5 +37,5 @@ input:focus {
 }
 
 .Input--white input {
-	background-color: #fff;
+	background-color: $color-white;
 }

@@ -1,8 +1,10 @@
+@import '../../../styles/variables';
+
 /**
 	SECTION
 **/
 .CTA__Section {
-	background-color: #fafafa;
+	background-color: $color-neutral-tint;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;

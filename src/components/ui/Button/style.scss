@@ -1,8 +1,10 @@
+@import '../../../styles/variables';
+
 .Button {
 	display: inline-block;
 	border-radius: 6px;
 	border: 0;
-	color: #fff;
+	color: $color-white;
 	padding: 14px 28px;
 	cursor: pointer;
 	font-size: 18px;
@@ -30,7 +32,7 @@
 }
 
 .Button--primary {
-	background-color: #1190e5;
+	background-color: $color-prime;
 }
 
 .Button--primary:hover,
@@ -43,7 +45,7 @@
 }
 
 .Button--secondary {
-	background-color: #3871d0;
+	background-color: $color-secondary;
 	box-shadow: 0 5px 25px 0 rgba(56, 113, 208, 0.33), inset 0 0 100px 0 rgba(255, 255, 255, 0),
 		inset 0 0 3px 0 rgba(255, 255, 255, 0.5);
 }

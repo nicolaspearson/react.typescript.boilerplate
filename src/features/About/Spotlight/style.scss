@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 /**
 	SECTION
 **/
@@ -34,7 +36,7 @@
 		SPOTLIGHT
 	**/
 	.Spotlight {
-		color: #7a7f87;
+		color: $color-font-light;
 		margin-bottom: 30px;
 		line-height: 24px;
 	}
@@ -43,7 +45,7 @@
 		font-size: 18px;
 		font-weight: 500;
 		line-height: 1.67;
-		color: #2f3339;
+		color: $color-font-dark;
 		margin-bottom: 7px;
 	}
 

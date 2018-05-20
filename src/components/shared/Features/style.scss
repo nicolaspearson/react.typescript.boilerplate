@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 /**
 	SECTION
 **/
@@ -56,7 +58,7 @@
 		HEADING
 	**/
 	.Heading {
-		color: #8d9299;
+		color: $color-font-medium;
 		font-size: 20px;
 		line-height: 30px;
 	}
@@ -86,7 +88,7 @@
 	.Heading__item--important {
 		font-size: 24px;
 		line-height: 36px;
-		color: #0b0d11;
+		color: $color-font-dark;
 		font-weight: 300;
 	}
 
@@ -110,29 +112,29 @@
 	.Feature__inner {
 		cursor: pointer;
 		padding: 30px;
-		color: rgba(255, 255, 255, 0.5);
+		color: $color-font-light-alpha;
 		line-height: 24px;
 		transition: all 0.2s cubic-bezier(0.94, 0.4, 0.62, 0.93);
 		position: relative;
 	}
 
 	.Feature:nth-child(1) .Feature__inner {
-		background-color: #3637d1;
+		background-color: $color-feature-background-1;
 		box-shadow: 0 10px 20px 0 rgba(54, 54, 209, 0.25);
 	}
 
 	.Feature:nth-child(2) .Feature__inner {
-		background-color: #12a5b4;
+		background-color: $color-feature-background-2;
 		box-shadow: 0 10px 20px 0 rgba(25, 165, 179, 0.25);
 	}
 
 	.Feature:nth-child(3) .Feature__inner {
-		background-color: #703ada;
+		background-color: $color-feature-background-3;
 		box-shadow: 0 10px 20px 0 rgba(112, 57, 218, 0.25);
 	}
 
 	.Feature:nth-child(4) .Feature__inner {
-		background-color: #187eef;
+		background-color: $color-feature-background-4;
 		box-shadow: 0 10px 20px 0 rgba(24, 126, 239, 0.25);
 	}
 
@@ -146,7 +148,7 @@
 	.Feature__title {
 		display: inline-block;
 		vertical-align: middle;
-		color: #fff;
+		color: $color-white;
 		font-size: 18px;
 		line-height: 30px;
 		font-weight: normal;

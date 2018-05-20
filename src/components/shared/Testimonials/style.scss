@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 /**
 	SECTION
 **/
@@ -41,7 +43,7 @@
 
 	.Testimonial__inner {
 		border-radius: 6px;
-		background-color: #ffffff;
+		background-color: $color-white;
 		box-shadow: 0 10px 20px 0 rgba(11, 15, 21, 0.1);
 		padding: 30px;
 	}
@@ -49,27 +51,27 @@
 	.Testimonial__content {
 		font-size: 18px;
 		line-height: 1.44;
-		color: #0b0d11;
+		color: $color-font-darkest;
 		margin-top: 24px;
 	}
 
 	.Testimonial__author {
 		opacity: 0.8;
 		line-height: 1.13;
-		color: #2f3339;
+		color: $color-font-dark;
 		margin-top: 15px;
 	}
 
 	.Testimonial__author-about {
 		font-size: 12px;
 		font-style: italic;
-		color: #7a7f87;
+		color: $color-font-light;
 		display: block;
 		line-height: 20px;
 	}
 
 	a.Testimonial__author-about {
-		color: #2c59c5;
+		color: $color-secondary-dark;
 		text-decoration: none;
 	}
 

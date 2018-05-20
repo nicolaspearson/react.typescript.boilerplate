@@ -3,11 +3,11 @@ $mql: 1000px;
 
 // From Bootsrap
 $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
 );
 
 $font-size-base: 1rem;
@@ -18,22 +18,20 @@ $font-size-xs: ($font-size-base * 0.6);
 // Z-Index
 $zindex-navbar: 99;
 
-// Content Background
-$color-content-background: #ebf0f3;
-
 // Font
 $color-placeholder: #cac6c6;
 $color-font: #727881;
 
 // Primary Color Palette
-$color-prime: #03a9f4;
+$color-prime: #1190e5;
 $color-prime-tint: #b3e5fc;
 $color-prime-shade: #0288d1;
 
 // Secondary Color Palette
-$color-secondary: #9e9e9e;
-$color-secondary-tint: #9e9e9e;
-$color-secondary-shade: #616161;
+$color-secondary-dark: #2c59c5;
+$color-secondary: #3871d0;
+$color-secondary-tint: #92baff;
+$color-secondary-shade: #6090e4fd;
 
 // Neutral Color Palette
 $color-neutral: #f2f2f2;
@@ -55,3 +53,25 @@ $color-success: #45f878;
 $color-error: #f74141;
 $color-info: #5ba1f4;
 $color-warning: #eea919;
+
+// Common
+$color-darkest: #0b0f15;
+$color-content-background: #ebf0f3;
+$color-font-darkest: #0b0d11;
+$color-font-dark: #2f3339;
+$color-font-medium: #8d9299;
+$color-font-light-alpha: rgba(255, 255, 255, 0.5);
+$color-font-light: #7a7f87;
+
+// Features
+$color-feature-background-1: #3637d1;
+$color-feature-background-2: #12a5b4;
+$color-feature-background-3: #703ada;
+$color-feature-background-4: #187eef;
+
+// Footer
+$color-footer-background: $color-white;
+
+// Header
+$color-heading-background-1: rgba(0, 100, 255, 0.25);
+$color-heading-background-2: rgba(0, 100, 255, 5e-5);

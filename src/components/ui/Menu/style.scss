@@ -16,7 +16,7 @@
 	content: '\\f016';
 	font-family: FontAwesome;
 	font-size: 14px;
-	color: rgba(122, 127, 135, 0.5);
+	color: $color-font-light-alpha;
 }
 
 .Menu__item + * {
@@ -26,7 +26,7 @@
 .Menu :global(a) {
 	text-decoration: none;
 	font-size: 14px;
-	color: #2f3339;
+	color: $color-font-dark;
 	padding: 15px;
 	display: flex;
 	align-items: center;
@@ -38,7 +38,7 @@
 	margin-bottom: -2px;
 	font-family: FontAwesome;
 	font-size: 12px;
-	color: #0b0d11;
+	color: $color-font-darkest;
 	will-change: opacity, transform;
 	transition-property: opacity, transform;
 	transition-duration: 0.25s;
@@ -48,7 +48,7 @@
 
 .Menu :global(.active) {
 	font-weight: 500;
-	color: #0b0d11;
+	color: $color-font-darkest;
 }
 
 .Menu :global(.active::after) {

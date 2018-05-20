@@ -1,7 +1,7 @@
 div {
 	font-size: 14px;
 	line-height: 1.57;
-	color: #8d9299;
+	color: $color-font-medium;
 }
 
 div :global(h2),
@@ -9,7 +9,7 @@ div :global(h3),
 div :global(h4),
 div :global(h5),
 div :global(h6) {
-	color: #0b0d11;
+	color: $color-font-darkest;
 	font-weight: 500;
 }
 
@@ -53,7 +53,7 @@ div :global(p) + :global(p) {
 }
 
 div :global(p) :global(a) {
-	color: #2c59c5;
+	color: $color-secondary-dark;
 	font-weight: 500;
 	text-decoration: none;
 }
@@ -105,7 +105,7 @@ div :global(ol),
 div :global(ul) {
 	font-size: 14px;
 	line-height: 1.86;
-	color: #8d9299;
+	color: $color-font-medium;
 	list-style: none;
 	margin-top: 15px;
 	margin-bottom: 15px;
