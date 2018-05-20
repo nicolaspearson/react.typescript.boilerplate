@@ -8,8 +8,8 @@
 	padding-bottom: 30px;
 	background-image: radial-gradient(
 			1171px at 50.83% -19.58%,
-			rgba(0, 100, 255, 0.25) 0%,
-			rgba(0, 100, 255, 5e-5) 100%
+			$color-heading-background-1 0%,
+			$color-heading-background-2 100%
 		),
 		linear-gradient(0deg, $color-darkest, $color-darkest);
 	position: relative;
