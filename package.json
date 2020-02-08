@@ -41,7 +41,7 @@
 		"@types/react-router-redux": "^5.0.14",
 		"@types/redux-actions": "^2.3.0",
 		"@types/webpack": "4.4.0",
-		"@types/webpack-env": "1.13.6",
+		"@types/webpack-env": "1.15.1",
 		"autoprefixer": "8.5.1",
 		"case-sensitive-paths-webpack-plugin": "2.1.2",
 		"chalk": "2.4.1",
