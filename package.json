@@ -62,7 +62,7 @@
 		"postcss-loader": "2.1.5",
 		"prettier": "^1.12.1",
 		"promise": "8.0.1",
-		"raf": "3.4.0",
+		"raf": "3.4.1",
 		"react-dev-utils": "nicolaspearson/react-dev-utils-webpack-4",
 		"resolve": "1.7.1",
 		"sanitize.css": "5.0.0",
