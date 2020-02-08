@@ -43,7 +43,7 @@
 		"@types/webpack": "4.4.0",
 		"@types/webpack-env": "1.13.6",
 		"autoprefixer": "8.5.1",
-		"case-sensitive-paths-webpack-plugin": "2.1.2",
+		"case-sensitive-paths-webpack-plugin": "2.3.0",
 		"chalk": "2.4.1",
 		"css-loader": "0.28.11",
 		"dotenv": "5.0.1",
