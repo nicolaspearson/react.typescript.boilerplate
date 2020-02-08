@@ -68,7 +68,7 @@
 		"sanitize.css": "5.0.0",
 		"sass-loader": "^7.0.1",
 		"source-map-loader": "^0.2.3",
-		"style-loader": "0.21.0",
+		"style-loader": "0.23.1",
 		"sw-precache-webpack-plugin": "0.11.5",
 		"ts-jest": "22.4.6",
 		"ts-loader": "^4.3.0",
