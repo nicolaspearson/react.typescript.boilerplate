@@ -130,9 +130,9 @@
   dependencies:
     source-map "^0.6.1"
 
-"@types/webpack-env@1.13.6":
-  version "1.13.6"
-  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.6.tgz#128d1685a7c34d31ed17010fc87d6a12c1de6976"
+"@types/webpack-env@1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.15.1.tgz#c8e84705e08eed430b5e15b39c65b0944e4d1422"
 
 "@types/webpack@4.4.0":
   version "4.4.0"
