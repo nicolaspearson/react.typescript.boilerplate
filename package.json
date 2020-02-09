@@ -40,7 +40,7 @@
 		"@types/react-router-dom": "^4.2.6",
 		"@types/react-router-redux": "^5.0.14",
 		"@types/redux-actions": "^2.3.0",
-		"@types/webpack": "4.4.0",
+		"@types/webpack": "4.41.6",
 		"@types/webpack-env": "1.13.6",
 		"autoprefixer": "8.5.1",
 		"case-sensitive-paths-webpack-plugin": "2.1.2",
@@ -80,7 +80,7 @@
 		"typescript": "^2.8.3",
 		"uglifyjs-webpack-plugin": "^1.2.5",
 		"url-loader": "1.0.1",
-		"webpack": "4.8.3",
+		"webpack": "4.41.5",
 		"webpack-dev-server": "3.1.4",
 		"webpack-manifest-plugin": "2.0.3",
 		"whatwg-fetch": "2.0.4"
